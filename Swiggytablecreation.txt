@@ -1,0 +1,16 @@
+
+1. create table swiggy:-
+create table Swiggy(
+restaurant_no int NOT NULL,
+restaurant_name	varchar(50) NOT NULL,
+city varchar(50) NOT NULL,
+address	varchar(255) NOT NULL,
+rating numeric(3,1) NOT NULL,
+cost_per_person	int,
+cuisine	varchar(50) NOT NULL,
+restaurant_link	varchar(255) NOT NULL,
+menu_category varchar(50),
+item varchar(255),
+price varchar(50) NOT NULL,
+veg_or_nonveg varchar(50)
+);
